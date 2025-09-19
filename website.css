@@ -1,0 +1,403 @@
+/*universal section*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,500;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color:#183B56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+
+body{
+    font-family:'poppins'sans-sarif;
+    color:var(--primary-text-color);
+}
+
+h1{
+    font-size:2 rem;
+}
+
+h2{
+    font-size:2rem;
+}
+
+h2{
+    font-size: 1.5 rem;
+}
+
+p{
+    font-family:'roboto' sans-sarif;
+    color:var(--primary-text-color);
+    font-size:1.25rem;
+    line-height:1.25rem;
+}
+
+a{
+    text-decoration:none;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight:700;
+    padding-inline:20px;
+}
+
+.container{
+    
+    max-width:1180px;
+    margin-inline:auto;
+    padding-inline:var(--padding-inline-section);
+}
+/*top banner CSS start from here*/
+.banner-text{
+    color:white;
+    padding:15px 30px;
+    text-align: center;
+}
+
+.top-banner{
+    background-color:#2294ed;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:sticky;
+    top:0;
+}
+
+
+.flex{
+    display:flex;
+    flex:wrap;
+    align-items:center;
+    gap:30px;    
+}
+/*top banner CSS ends here*/
+
+/*nav bar CSS start from here*/
+.company-logo,img{
+    margin-top:20px;
+    height:55px;
+    width:90px;
+}
+
+.nav-links,ul,li{
+    display:inline;
+    padding:10px;
+    justify-content: end;
+    margin-top:32px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.main-nav{
+    justify-content:space-between;
+    margin-top:18px;
+}
+
+.hover-link:hover{
+     color:var(--accent-color);
+}
+
+.primary-button{
+    background-color:var(--accent-color);
+    border-radius:10px;
+    font-weight:bold;
+    padding:12px 24px;
+    color:white !important;
+    box-shadow:0 0 2px var(--secondary-text-color);
+    transition: 0.2s ;
+}
+
+.primary-button:hover{
+
+     background-color:var(--accent-color-dark);
+}
+
+.secondary-button{
+    border:0.5px solid var(--secondary-text-color);
+    border-radius:7px;
+    padding:10px 22px;
+    font: weight 700px;
+    transition: 0.2s;
+
+}
+
+.secondary-button:hover{
+    background-color:var(--accent-color-dark);
+    color:white !important;
+}
+
+/*Header section CSS start from here*/
+
+.header-right-image{
+     width:600px;
+     height:auto;
+}
+
+.header-left{
+    max-width:30vw;
+    margin-left:50px;
+}
+
+.get-started-btn{
+    background-color:var(--accent-color);
+    border-radius:10px;
+    font-weight:bold;
+    padding:12px 24px;
+    color:white !important;
+    box-shadow:0 0 2px var(--secondary-text-color);
+    transition: 0.2s ;
+    margin-left:5px;
+}
+
+.header-section{
+    gap:180px;
+}
+/*header section CSS ends here*/
+
+/*company section start from here*/
+
+.companies-header{
+    font-size:1.2rem;
+    display:flex;
+    justify-content:center;
+}
+
+.company-logo{
+   gap:45px;
+   margin-left:55px;   
+}
+
+.logo{
+    border-radius:3px;
+    height:56px;
+}
+/*compnaies header section ends here*/
+
+/*companies see features section starts from here*/
+
+.features-header{
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:Center;
+    text-align:center;
+}
+
+
+
+.features-area{
+    flex-wrap:wrap;
+    justify-content:space-between; 
+}
+.features-card{
+    
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+    max-width:30%;
+    padding:30px;
+    row-gap:10px;
+}
+
+h3{
+   justify-content:center;
+   font-size:25px;
+}
+
+p{
+    
+    font-size:18px;
+}
+
+.learn-more-button-design{
+    padding:15px 15px;
+}
+
+.card-sorting-image{
+    width:85px;
+    height:auto;
+    margin-left:6px;
+    margin-top:20px;
+}
+
+.prototype-image{
+    height:auto;
+    width:42px;
+    margin-left:5px;
+    margin-top:30px;
+}
+
+.prototype-heading{
+    margin-top:30px;
+}
+
+
+.first-click-image{
+    height:auto;
+    width:75px;
+    margin-left:5px;
+}
+
+.design-survey-image{
+    height:auto;
+    width:45px;
+    margin-left:5px;
+}
+
+.preference-test-image{
+    height:auto;
+    width:56px;
+    margin-left:5px;
+}
+
+.five-second-test-image{
+    margin-left:4px;
+    height:auto;
+    width:50px;
+}
+
+/*feature section CSS ends here*/
+
+.big-feature-section{
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container{
+    gap:70px;
+}
+
+.big-feature-left-image-1{
+    width:550px;
+    height:auto;
+}
+
+.big-feature-right-image-2{
+    height:auto;
+    width:500px;
+}
+
+.big-feature-left-image-3{
+    height:450px;
+    width:550px;
+}
+.feature-description{
+    flex-direction:column;
+    align-items:flex-start;
+}
+
+/*example section css starts from here*/
+
+.example-card{
+    width:23%;
+    position:relative;
+    min-height:300px;
+    background-color:black; 
+    background:url(./images/example\ card.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:contain;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+
+.card-text{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    right: 20px;
+    color:white;
+}
+
+.example-image-section{
+    margin-top:70px;
+}
+
+.example-button{
+    margin-top:28px;
+}
+
+/* example section css ends here */
+ /* cta section css starts from here*/
+.cta-mainbox{
+    margin-top:170px;
+    padding:120px var(--padding-inline-section)80px;
+    background-color:#183B56;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    gap:45px;
+}
+ /* cta section css starts from here*/
+
+/* footer section css starts from here*/
+
+ .footer{
+    padding:80px;
+    background-color:#ebf2eb;
+    
+}
+
+.footer-section{
+    gap:320px;
+}
+
+.company-design{
+    margin-bottom:180px;
+}
+
+.company-links{
+    display:flex;
+    gap:100px;
+}
+
+.link-coloumn{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap:20px;
+}
+
+/* footer section css ends here here*/
+
+/* subfooter section starts from here */
+
+.sub-footer{
+    height:60px;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+    gap:10px;
+    background-color:#b9cde4;
+}
+
+.sub-footer-container{
+    display:flex;
+    gap:28px;
+}
+/* end of subfooter */
+
+
+
+
+
+
+
+
+
+
+
+
+
